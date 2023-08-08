@@ -1,0 +1,141 @@
+@media(min-width:320px) and (max-width:767px){
+
+	.site_logo {
+	    height: 50px;
+	}
+	 .header-style2__right{
+	 	display: none;
+	 }
+	 .offcanvas-header .btn-close{
+	 	margin-right: 10px;
+	 }
+	.text-bg-dark{
+		background-color: #2d3928 !important;
+	}
+	.banner-section .bg-image-lyer::before {
+	    background-image: linear-gradient(270deg, #02010100 0%, #f9f2ec 0%);
+	}
+	.banner-content-wrapper {
+	    padding-top: 70px;
+	    padding-left: 20px;
+	}
+	.banner-content h5 {
+    	font-size: 40px;
+    }
+    .common-sec-heading h5 {
+	    font-size: 40px;
+	}
+	.about-sec-Content {
+	    padding: 40px 10px;
+	}
+	.textcenterr{
+		text-align: center;
+	}
+	.Why-us-section-wrapper{
+		padding: 50px 20px;
+	}
+	.why-left-content{
+		margin-right: 0px;
+		margin-bottom: 40px;
+	}
+	.reviews-left-content {
+	    padding: 10px 10px 0px 10px;
+	}
+	.review-div-content{
+		padding: 35px;
+		width: 100%;
+	}
+	.reviews-image img{
+		height: auto;
+		margin-top: 30px;
+		text-align: center;
+	}
+	.p-0 {
+	    padding: 0px 12px !important;
+	}
+	.blogflex-direction{
+		flex-direction: column-reverse;
+	}
+	.blog-card-content {
+	    padding: 20px 0px;
+	}
+	.footer-info-wrapper img {
+	    height: 65px;
+	}
+	.social-media-icon img {
+	    height: 25px;
+	}
+	.about-sec-Content .d-flex{
+		display: contents !important;
+	}
+	.about-section{
+		padding-top: 220px;
+	}
+	/*.banner-card-wrapper {
+		width: 95%;
+		right: 0px;
+		top: 110px;
+		margin: 0px 10px;
+	}
+	.banner-card-wrapper:first-child {
+		width: 95%;
+		left: 0px;
+		right: 0px;
+		top: -160px;
+		margin: 0px 10px;
+	}*/
+	.section-move{
+		width: 93%;
+		top: -220px;
+	}
+	.basic-btn-style {
+	    padding: 15px 20px;
+	    letter-spacing: 1px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+	.why-left-content {
+	    margin-right: 0px;
+	}
+	.review-div-content{
+		padding: 45px;
+		width: 100%;
+	}
+	.banner-content-wrapper {
+		width: 60%;
+	}
+	.banner-content h5 {
+    	font-size: 54px;
+    }
+    /*.banner-card-wrapper {
+		width: 45%;
+		right: 20px;
+		top: -280px;
+		margin: 0px 10px;
+	}
+	.banner-card-wrapper:first-child {
+		width: 45%;
+		left: 0px;
+		right: 0px;
+		top: -280px;
+		margin: 0px 10px;
+	}*/
+	.banner-section {
+	    position: relative;
+	    height: 70vh;
+	}
+	.banner-section .bg-image-lyer {
+		height: 70vh;
+	}
+}
+
+@media(max-width:1000px){
+	.nav-link{
+		color: white!important;
+	}
+	/*OffCanvas direction Responsive -- Css -- Start Here*/
+	.flex-direction-reverse{
+		flex-direction: column-reverse;
+	}
+}
