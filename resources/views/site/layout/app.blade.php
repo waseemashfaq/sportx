@@ -44,7 +44,7 @@ License: For each use you must have a valid license purchased only from above li
     @include('site.includes.footer')
 
   </main>
-  <div class="main-wrapper">
+  {{-- <div class="main-wrapper">
 
     <!-- partial:partials/_sidebar.html -->
      
@@ -65,7 +65,7 @@ License: For each use you must have a valid license purchased only from above li
       <!-- _footer partial -->
 
     </div>
-  </div>
+  </div> --}}
 
    @include('site.layout.js')
 
